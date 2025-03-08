@@ -11,7 +11,6 @@ public class Quiz {
         int number2 = scanner.nextInt();
         if (number1 <= 0  || number2 <= 0);
         System.out.println("Ambos numeros deben ser positivos");
-        return;
 
         int sumaDivisoresNumber1 = sumaDivisoresPropios(number1);
         int sumaDivisoresNumber2 = sumaDivisoresPropios(number2);
